@@ -42,7 +42,7 @@ Live endpoint: coming soon
 
 ⚙️ Setup
 
-    git clone https://github.com/YOUR_USERNAME/aircraft-predictive-maintenance.git
+    git clone https://github.com/USERNAME/aircraft-predictive-maintenance.git
     cd aircraft-predictive-maintenance
 
 Create conda environment:
@@ -59,7 +59,7 @@ Create conda environment:
 
 🛠️ Tech Stack
 - Language  : Python 3.11 (Anaconda)
-- ML Models : scikit-learn, PyTorch
+- ML Models : scikit-learn, PyTorchc
 - API       : FastAPI
 - Dashboard : Streamlit
 - Deployment: Render / HuggingFace Spaces
