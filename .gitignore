@@ -1,0 +1,40 @@
+# Anaconda / Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (too large for GitHub)
+data/raw/
+data/processed/
+
+# Model files (too large)
+models/*.pkl
+models/*.pt
+models/*.pth
+
+# Environment files
+.env
+*.env
+
+# uv (not using but cleanup)
+.venv/
+.python-version
+uv.lock
+pyproject.toml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
