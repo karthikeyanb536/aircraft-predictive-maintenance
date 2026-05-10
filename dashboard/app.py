@@ -21,7 +21,7 @@ st.divider()
 # ─────────────────────────────────────────
 # API URL
 # ─────────────────────────────────────────
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://aircraft-predictive-maintenance.onrender.com"
 
 # ─────────────────────────────────────────
 # SIDEBAR — SENSOR INPUTS
