@@ -15,3 +15,6 @@ pandas
 numpy
 joblib
 pydantic
+streamlit
+requests
+plotly
