@@ -8,3 +8,10 @@ jupyter
 notebook
 ipykernel
 tqdm
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+joblib
+pydantic
