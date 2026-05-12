@@ -5,11 +5,6 @@
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-1.8-orange)
 ![Status](https://img.shields.io/badge/Status-Active-green)
 
-
---------------------------------------- Presently - System - is - Under Maintainance -------------------------------------------------------
-
-(Sorry for inconvenience - try out after finishing maintainance work)
-
 🎯 Problem
 Predict Remaining Useful Life (RUL) of aircraft turbofan engines
 before breakdown using real NASA sensor data.
@@ -25,10 +20,10 @@ NASA C-MAPSS (Commercial Modular Aero-Propulsion System Simulation)
 Data → EDA → Feature Engineering → ML Models → API → Deployment
 Live API
 
-Endpoint    : https://aircraft-predictive-maintenance.onrender.com
-API Docs    : https://aircraft-predictive-maintenance.onrender.com/docs
-Dashboard   : https://aircraft-predictive-maintenance-asy28vaegwsxdncenrirqw.streamlit.app
-
+🔗 Live project
+👉 API (FastAPI docs): https://aircraft-predictive-maintenance.onrender.com/docs
+👉 Dashboard: https://karthikeyanb536.github.io/aircraft-predictive-maintenance/
+👉 GitHub: https://github.com/karthikeyanb536/aircraft-predictive-maintenance
 
 Model Performance
 
@@ -36,16 +31,18 @@ Our AI model was tested on 20 aircraft engines it had never seen before.
 Results show how accurately it predicts Remaining Useful Life (RUL) —
 the number of cycles left before an engine needs maintenance.
 
-| Version | Model                 | Accuracy       | Technical RMSE | Status         |
-|---------|-----------------------|----------------|----------------|--------------- |
-| v1.0    | Random Forest (tuned) | ±15 cycles     | 15.37 cycles   | ✅ Deployed    |
-| v2.0    | LSTM Neural Network   | TBD            | TBD            | 🔄 In Progress |
-| v3.0    | Transformer           | TBD            | TBD            | 📅 Planned     |
+| Version | Model         | RMSE  | Status      |
+|---------|---------------|-------|-------------|
+| v1.0    | Random Forest | 15.37 | ✅ Deployed |
+| v2.0    | LSTM Tuned    | 12.31 | ✅ LIVE NOW |
+| v3.0    | Transformer   | ~10.5 | 📅 Planned  |
 
-What does ±15 cycles mean?
+**20% improvement over baseline RF model!**
+
+What does ±12 cycles mean?
 
 If an engine has 100 cycles remaining before maintenance is needed,
-our model predicts somewhere between 85 and 115 cycles.
+our model predicts somewhere between 88 and 112 cycles.
 For an engine with an average 200 cycle lifespan, that is 92% accuracy.
 
 Think of it like a fuel gauge in your car — it does not tell you the
