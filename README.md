@@ -6,10 +6,9 @@
 ![Status](https://img.shields.io/badge/Status-Active-green)
 
 
---------------------Presently-System-is-----------------------------
----------------------Under Maintainance-----------------------------
+--------------------------------------- Presently - System - is - Under Maintainance ---------------------------------------------------------------------------
 
-(try out after finishing maintainance work)
+(Sorry for inconvenience - try out after finishing maintainance work)
 
 🎯 Problem
 Predict Remaining Useful Life (RUL) of aircraft turbofan engines
