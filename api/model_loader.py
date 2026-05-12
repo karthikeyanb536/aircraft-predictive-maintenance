@@ -46,13 +46,14 @@ scaler = joblib.load(SCALER_PATH)
 # =========================================================
 
 def load_model():
-
     from src.models.lstm_model import LSTMModelV2
-
     features = joblib.load(FEATURE_PATH)
-
+    # Match the tuned model's best params
     model = LSTMModelV2(
-        input_size=len(features)
+        input_size=len(features),
+        hidden_size=256,
+        num_layers=3,
+        dropout=0.3
     )
 
     model.load_state_dict(
