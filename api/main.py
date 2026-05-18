@@ -65,6 +65,7 @@ def root():
 # =========================================================
 
 @app.get("/health", tags=["System"])
+@app.head("/health", tags=["System"])
 def health_check():
 
     return {
